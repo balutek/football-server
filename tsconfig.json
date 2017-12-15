@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "outDir": "dist",
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "types": [
+      "@reactivex/rxjs",
+      "express",
+      "reflect-metadata"
+    ],
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowJs": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "src/Server.ts",
+    "src/controller/GameController.ts"
+  ],
+  "include": [
+    "src"
+  ]
+}
