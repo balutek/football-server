@@ -18,14 +18,11 @@
 
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "allowJs": true
+    "allowJs": true,
+    "skipLibCheck": true
   },
   "exclude": [
     "node_modules"
-  ],
-  "files": [
-    "src/Server.ts",
-    "src/controller/GameController.ts"
   ],
   "include": [
     "src"
